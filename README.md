@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-blog-card-preview-using-tailwind-css-8_ACn0zeGC)
+- Live Site URL: [Live Site](https://dimasrdev.github.io/blog-preview-card-frontendmentor/)
 
 ## My process
 
