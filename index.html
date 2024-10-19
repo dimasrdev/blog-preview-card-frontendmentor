@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/build.css" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col justify-center items-center font-figtree bg-[#f4d04e] px-5 py-16"
+  >
+    <!-- - Yellow: hsl(47,88%,63%)
+
+- White: hsl(0,0%,100%)
+
+- Gray 500: hsl(0,0%,42%)
+- Gray 950: hsl(0, 0%, 7%) -->
+
+    <main
+      class="flex flex-col gap-4 max-w-96 bg-white p-5 rounded-xl border border-black shadow-[5px_10px]"
+    >
+      <img
+        class="rounded-xl"
+        src="./assets/images/illustration-article.svg"
+        alt="illustration image"
+      />
+      <div
+        id="label"
+        class="w-fit py-1 px-2 bg-[#f4d04e] rounded-xl font-extrabold"
+      >
+        Learning
+      </div>
+      <p class="text-[#121212]">Published 21 Dec 2023</p>
+      <h1 class="font-extrabold text-xl text-[#121212] hover:text-[#f4d04e]">
+        <a href="#">HTML & CSS foundations</a>
+      </h1>
+      <p class="text-[#6b6b6b]">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+
+      <div id="author" class="flex w-full items-center gap-3">
+        <img
+          src="./assets/images/image-avatar.webp"
+          alt="author-image"
+          class="w-[40px]"
+        />
+        <h2 class="text-[#121212] font-extrabold">Greg Hooper</h2>
+      </div>
+    </main>
+
+    <div class="attribution mt-5">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/dimasrdev">Dimas Wibowo</a>.
+    </div>
+  </body>
+</html>
